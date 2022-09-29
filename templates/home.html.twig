@@ -1,0 +1,9 @@
+{% extends "base.html.twig" %}
+{% block title %}Page Home{% endblock %}
+{% block body %}
+    <h1>Bienvenue dans la page Home !</h1>
+    <h3>La chaîne de caractère passée en paramètre Twig est : <span style="color: greenyellow">{{ str }}</span></h3>
+    <p><a href="/test">Accéder à la Page Test</a></p>
+    <p><a href="/getvariable">Accéder à la Page GetVariable (variable passé dans l'URL)</a></p>
+    <p><a href="/generated">Accéder à la page génerer par commande</a></p>
+{% endblock %}
